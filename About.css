@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+body{
+   background-color: #000000; 
+   background-image: url(images/back.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+nav{
+    /* background-color: rgba(240, 248, 255, 0.623);  */
+    text-align: center;
+    height: 45px;
+    width : 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:18px;
+}
+nav a{
+    background-color: #000000a9;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 110px;
+    padding-right: 110px;
+    text-decoration: none;
+}
+        
