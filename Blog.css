@@ -118,7 +118,9 @@ h1{
     width: 90%;
     height: 400px;
     border-radius: 3%;
-    color: aliceblue;
+    font-size: 16px;
+    color: rgb(89, 154, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
   .Blog-content > boxes {
@@ -140,3 +142,7 @@ h1{
     display: table;
 
         }
+.intra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
