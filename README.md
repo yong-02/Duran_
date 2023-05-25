@@ -1,3 +1,2 @@
 # Duran_
-Maidon Jeho G. Duran
-BSIT 2C
+Maidon Jeho G. Duran || BSIT 2C
