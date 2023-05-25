@@ -12,11 +12,13 @@ body{
             text-align: center;
         }      
 header{ 
-            background-color: #141414cb;
+            /* background-color: #141414cb; */
             height: 150px;
             width : 100%;                          
             margin-left: auto;
-            margin-right:auto;                            
+            margin-right:auto;     
+            padding-top: 8px;
+            padding-left: 8px;                       
 }
 .container_contact{
     margin-left: auto;
@@ -30,6 +32,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top:18px;
+    padding-right: 8px;
         }
 nav a{
     background-color: #000000a9;
@@ -52,6 +55,7 @@ nav a{
 
 .container-blog{
 width: auto;
+
 }
 
 .container .row{
@@ -85,6 +89,7 @@ h1{
     width: 44%;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .boxes{
@@ -142,7 +147,9 @@ h1{
     display: table;
 
         }
-.intra{
+.intra a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    text-decoration: none;
+    color: beige;
 }
