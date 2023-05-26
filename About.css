@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    width: 100%;
 }
 body{
    background-color: #000000; 
@@ -30,6 +31,13 @@ nav a{
     padding-right: 110px;
     text-decoration: none;
 }
+header{
+    /* background-color: #141414cb; */
+    height: 200px;
+    width : 100%;                          
+    margin-left: auto;
+    margin-right:auto;                            
+                        }
 .About-container {
     position: relative;
     width: 80%;
@@ -41,38 +49,65 @@ nav a{
     scroll-snap-type: y mandatory;
   }
   
-  .blue {
-    background-color: rgba(173, 216, 230, 0.253);
-    width: 95%;
-    aspect-ratio: 3/1;
-  }
-  
 
-
-  .PerInfo{
-    background-color: rgba(23, 197, 255, 0.253);
+.PerInfo{
+    background-color: rgba(255, 255, 255, 0.8290);
     width: 95%;
-    height: 860px;
+    height: 806px;
     margin-left: auto;
     margin-right: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,2);
+    
+    
   }
+.InfoContain{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,2);
+    
+
+
+}
 .Skill {
-    /* background-color: rgba(255, 255, 255, 0.479); */
+    background-color: rgba(235, 235, 235, 0.479);
     width: 100%;
     height: 500px;
   }
- .skill-container{
-    background-color: aliceblue;
+  .Photos {
+    background-color: rgb(250, 250, 250);
     width: 100%;
-    height: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.2% ;
+    height: 500px;
+  }
+.Achievements{
+    background-color: rgb(12, 255, 4);
+    width: 100%;
+    height: 500px;
+}
+.Hobby{
+    background-color: rgba(255, 0, 0, 0.479);
+    width: 100%;
+    height: 500px;
+}
 
- }       
+.image-section{
+    background-color: rgb(34, 20, 20);;
+    margin-left: 60px;
+    height: 257px;
+    width: 257px;
+    border-radius: 257px;
+}
 
- .sidebar{
-    background-color: #f0f0f0;
-    height: 256px;
-    width: 256px;
- }
+.InfoContain .LeftSection{
+    position: flex;
+    background-color: rgba(255, 0, 0, 0.479);
+    padding: 40px
+}
+
+.InfoContain .RightSection{
+    position: flex;
+    background-color: rgba(24, 23, 23, 0.479);
+    padding: 40px;
+    width: 100%;
+}
