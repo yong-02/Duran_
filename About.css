@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,600;1,700&display=swap');
+
 html{
     height: 100%;
     width: 100%;
@@ -56,9 +58,12 @@ header{
     height: 806px;
     margin-left: auto;
     margin-right: auto;
-    display:grid;
+    display:flex;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0 35px 55px rgba(0,0,0,2);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     
     
   }
@@ -67,8 +72,6 @@ header{
     grid-template-columns: 1fr 1fr;
     box-shadow: 0 35px 55px rgba(0,0,0,2);
     
-
-
 }
 .Skill {
     background-color: rgba(235, 235, 235, 0.479);
@@ -90,24 +93,39 @@ header{
     width: 100%;
     height: 500px;
 }
-
-.image-section{
-    background-color: rgb(34, 20, 20);;
-    margin-left: 60px;
-    height: 257px;
-    width: 257px;
-    border-radius: 257px;
+.PerInfo .card{
+    background-color: rgb(255, 255, 255);
+    width: 1700px;
+    height: 700px;
+    box-shadow: 0 35px 55px rgba(0,0,0,2);
+    position: relative;
 }
 
-.InfoContain .LeftSection{
-    position: flex;
-    background-color: rgba(255, 0, 0, 0.479);
-    padding: 40px
+.profiling{
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.InfoContain .RightSection{
-    position: flex;
-    background-color: rgba(24, 23, 23, 0.479);
-    padding: 40px;
-    width: 100%;
+.Occupation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    font-family: 'Poppins', sans-serif;
+     
+}
+
+.cardbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line{
+    width: 1px;
+    height: 250px;
+    background-color: #000000c4;
 }
